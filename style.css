@@ -1,0 +1,123 @@
+*{
+    margin: 10px;
+    padding: 5px;
+    box-sizing:border-box;
+    font-family:'poppins', arial;
+    font-weight: bold,700;
+    font-size: 32px;
+}
+
+body{
+    min-height:300p;
+
+    display:flexbox;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        #f7fafa,
+        hsl(210, 23%, 95%),
+        hsla(223, 11%, 88%, 0.979)
+    );
+    
+}
+body{
+    background-image: url("https://i.pinimg.com/736x/39/fa/f0/39faf0ee7ee9fee6dfc958f9301eaf0c.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ 
+.container{
+    width:100%;
+    display:flexb;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+
+    width:400px;
+
+    background:rgb(5, 5, 5);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(232, 227, 236, 0.938);
+
+    border-radius:25px;
+
+    padding:40px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgb(248, 234, 234);
+
+    animation:aparecer 1s;
+}
+
+.logo{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+.login-box h1{
+    color:#d8e2db;
+    margin-bottom:10px;
+}
+
+.login-box p{
+    color:white;
+    margin-bottom:25px;
+}
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:15px;
+
+    border:rgb(235, 227, 227);
+
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:15px;
+}
+
+button{
+
+    width:100%;
+
+    padding:35px;
+
+    background:#0a0a0a;
+
+    color:rgb(241, 238, 238);
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+a{
+    display:block;
+    margin-top:15px;
+    color:#eeeeeef1;
+    text-decoration:none;
+}
+

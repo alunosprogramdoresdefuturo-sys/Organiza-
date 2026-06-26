@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organiza+ | Início</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>📋 Organiza+</h2>
+
+<a href="home.html">🏠 Início</a>
+
+
+
+<a href="tarefas.html">✅ Tarefas</a>
+
+
+
+
+<a href="agenda.html">📅 Agenda</a>
+
+
+</div>
+
+<div class="main">
+
+<h1>Bem-vindo!</h1>
+
+<div class="cards">
+
+<div class="card">
+<h2>🎯 Metas do Dia</h2>
+
+<div class="barra">
+<div class="progresso"></div>
+</div>
+
+<p>75% concluído</p>
+
+</div>
+
+<div class="card">
+<h2>📌 Próximas Tarefas</h2>
+
+<ul>
+<li>Trabalho de História</li>
+<li>Estudar Matemática</li>
+<li>Organizar Material</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>💡 Motivação</h2>
+
+<p>
+"O sucesso é a soma de pequenos esforços repetidos todos os dias."
+</p>
+
+</div>
+
+<div class="card">
+<h2>⏰ Horário Atual</h2>
+
+<h3 id="relogio"></h3>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+setInterval(()=>{
+document.getElementById("relogio").innerHTML =
+new Date().toLocaleTimeString();
+},1000);
+</script>
+<a href="tarefas.html">Proximo</a>
+</body>
+</html>
